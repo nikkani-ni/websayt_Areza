@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haven | Nature, Comfort, You</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/stay.css">
+  <link rel="stylesheet" href="../css/experiences.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/reviews.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <nav class="navbar">
+        <a href="#home" class="logo">
+          <span class="logo-icon">◎</span>
+          haven
+        </a>
+
+        <div class="nav-links">
+          <a href="#about" class="active">About</a>
+          <a href="#stay">Stay</a>
+          <a href="#experiences">Experiences</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-buttons">
+          <a href="#faq" class="faq-btn">FAQ</a>
+          <a href="#booking" class="book-btn">Book Now</a>
+          <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <h1>
+          Nature.<br>
+          Comfort. You.
+        </h1>
+
+        <p>
+          A serene retreat inspired by nature,<br>
+          designed for rest, renewal and<br>
+          unforgettable moments.
+        </p>
+
+        <a href="#booking" class="escape-btn">
+          Book Your Escape
+          <span class="arrow">➜</span>
+        </a>
+      </div>
+
+      <div class="experience">
+        <span class="top-label">Inspired by Nature</span>
+        <span class="left-label">Mindful Living</span>
+        <span class="right-label">Pure Comfort</span>
+        <span class="bottom-label">Total Escape</span>
+
+        <div class="circle">
+          <div class="circle-image"></div>
+          <button class="play-btn" aria-label="Play video"><span></span></button>
+
+          <i class="dot dot-top"></i>
+          <i class="dot dot-right"></i>
+          <i class="dot dot-bottom"></i>
+          <i class="dot dot-left"></i>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="about-section" id="about">
+
+      <div class="about-top">
+
+        <div class="about-gallery">
+
+          <div class="gallery-card">
+            <img src="../images/nature.png" alt="Beautiful natural landscape">
+            <div class="card-overlay">
+              <span>01</span>
+              <h3>Seamless with Nature</h3>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="gallery-card">
+            <img src="../images/design.png" alt="Timeless cabin design">
+            <div class="card-overlay">
+              <span>02</span>
+              <h3>Timeless Design</h3>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <img src="../images/interior.png" alt="Peaceful cabin interior">
+            <div class="card-overlay">
+              <span>03</span>
+              <h3>Peaceful Interiors</h3>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="about-content">
+
+          <div class="about-heading">
+            <span class="about-icon">♧</span>
+            <h2>about haven</h2>
+          </div>
+
+          <p class="about-description">
+            Haven Retreats offer a unique blend of
+            <span>natural beauty</span> and thoughtful design.
+            Every detail is crafted to help you slow down
+            and reconnect with what truly matters.
+          </p>
+
+          <div class="about-bottom">
+
+            <div class="guest-trust">
+              <div class="guest-avatars">
+                <img src="../images/guest1.png" alt="Guest">
+                <img src="../images/guest2.png" alt="Guest">
+                <img src="../images/guest3.png" alt="Guest">
+                <img src="../images/guest4.png" alt="Guest">
+              </div>
+
+              <div class="trust-text">
+                <span>Trusted by</span>
+                <strong>2K+ guests</strong>
+              </div>
+            </div>
+
+            <div class="rating">
+              <div class="rating-top">
+                <strong class="rating-number">4.9</strong>
+                <div class="stars">★★★★★</div>
+              </div>
+              <p>300+ reviews</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="discover-row">
+
+        <div class="discover-content">
+          <h2>
+            Discover the magic<br>
+            of your escape
+          </h2>
+
+          <span class="discover-line"></span>
+
+          <p>
+            From lush landscapes to warm interiors,
+            every corner of our retreat is designed
+            to bring you peace.
+          </p>
+
+          <div class="discover-arrows">
+            <button class="arrow-btn" id="discoverPrev" aria-label="Previous">←</button>
+            <button class="arrow-btn" id="discoverNext" aria-label="Next">→</button>
+          </div>
+        </div>
+
+        <div class="discover-gallery" id="discoverGallery">
+          <div class="discover-card card-large">
+            <img src="../images/escape1.png" alt="Cabin with grass roof and outdoor seating">
+          </div>
+          <div class="discover-card card-medium">
+            <img src="../images/escape2.png" alt="Cozy bedroom with forest view">
+          </div>
+          <div class="discover-card card-small">
+            <img src="../images/escape3.png" alt="Interior with large window and sink">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="stay-section" id="stay">
+
+      <div class="stay-card">
+
+        <a href="#gift" class="gift-btn" aria-label="Gift">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="8" width="18" height="13" rx="1"></rect>
+            <path d="M12 8v13M3 12h18M12 8c-2-4-6-4-6-1.5S10 8 12 8zm0 0c2-4 6-4 6-1.5S14 8 12 8z"></path>
+          </svg>
+        </a>
+
+        <aside class="booking-card">
+
+          <div class="booking-top">
+            <div class="booking-title">
+              <span class="check-icon">✓</span>
+              <h2>Your booking<br>is confirmed!</h2>
+            </div>
+
+            <div class="booking-thumb">
+              <img src="../images/escape1.png" alt="Your retreat">
+              <a href="#details" class="details-btn">View details</a>
+            </div>
+          </div>
+
+          <ul class="booking-info">
+            <li><span>Check In</span><strong>12 May 2024</strong></li>
+            <li><span>Check Out</span><strong>15 May 2024</strong></li>
+            <li><span>Guests</span><strong>2 Adults</strong></li>
+          </ul>
+
+          <div class="calendar-row">
+            <span>Add to Calendar</span>
+
+            <div class="calendar-icons">
+              <a href="#" aria-label="Google Calendar">G</a>
+              <a href="#" aria-label="Apple Calendar">A</a>
+              <a href="#" aria-label="Download calendar file">
+                <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+                  <path d="M16 3v4M8 3v4M3 11h18"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="retreat-row">
+            <span class="pin">
+              <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                <path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"></path>
+              </svg>
+            </span>
+
+            <div class="retreat-text">
+              <strong>Your retreat</strong>
+              <span>Waiheke Island, New Zealand</span>
+            </div>
+
+            <span class="retreat-arrow">›</span>
+          </div>
+
+          <a href="#manage" class="manage-btn">Manage Booking</a>
+
+        </aside>
+
+        <div class="stay-content">
+          <h1>
+            Reserve your<br>
+            perfect getaway
+          </h1>
+
+          <p>
+            Special stays for special souls.<br>
+            Join our community and unlock<br>
+            <span>exclusive offers</span> and stories.
+          </p>
+
+          <a href="#community" class="community-btn">
+            <span class="community-avatars">
+              <img src="../images/guest1.png" alt="Guest">
+              <img src="../images/guest2.png" alt="Guest">
+              <img src="../images/guest3.png" alt="Guest">
+            </span>
+            Join the Community
+            <span class="arrow">➜</span>
+          </a>
+        </div>
+
+        <div class="slide-counter">
+          <span>01</span>
+          <i></i>
+          <span>03</span>
+        </div>
+
+        <a href="#experiences" class="explore-btn">
+          Explore Our Retreats
+          <span class="explore-arrow">›</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <section class="experiences-section" id="experiences">
+
+      <svg class="leaf-deco" viewBox="0 0 160 260" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" aria-hidden="true">
+        <path d="M80 258C78 200 84 130 100 20"></path>
+        <path d="M82 200C60 192 46 174 42 150C64 156 78 176 82 200z"></path>
+        <path d="M84 170C108 162 122 142 124 118C102 124 88 144 84 170z"></path>
+        <path d="M88 130C66 122 54 104 52 80C72 86 86 106 88 130z"></path>
+        <path d="M94 90C116 82 128 64 130 42C110 48 98 66 94 90z"></path>
+        <path d="M98 52C84 46 76 34 76 20C90 24 98 36 98 52z"></path>
+      </svg>
+
+      <div class="exp-left">
+        <h2>
+          Thoughtful spaces<br>
+          and experiences<br>
+          for complete<br>
+          relaxation.
+        </h2>
+
+        <div class="exp-video">
+          <img src="../images/interior.png" alt="Peaceful cabin interior">
+          <button class="play-btn" aria-label="Play video"><span></span></button>
+        </div>
+
+        <p>
+          A place to disconnect from
+          the noise and reconnect
+          with yourself.
+        </p>
+      </div>
+
+      <div class="exp-list">
+
+        <div class="exp-item open" tabindex="0" aria-expanded="true">
+          <div class="exp-row">
+            <span class="exp-num">01</span>
+            <div class="exp-text">
+              <h3>Spaces that blend comfort and nature</h3>
+              <a href="#stay" class="exp-more">Learn more</a>
+            </div>
+            <div class="exp-img">
+              <img src="../images/background.jpg" alt="Cabin with grass roof">
+            </div>
+            <span class="exp-icon">+</span>
+          </div>
+        </div>
+
+        <div class="exp-item" tabindex="0" aria-expanded="false">
+          <div class="exp-row">
+            <span class="exp-num">02</span>
+            <div class="exp-text">
+              <h3>Is the retreat family friendly?</h3>
+              <p class="exp-desc">Yes. Our cabins welcome families, with space for kids to explore and parents to unwind.</p>
+              <a href="#faq" class="exp-more">Learn more</a>
+            </div>
+            <div class="exp-img">
+              <img src="../images/exp2.png" alt="Family friendly retreat">
+            </div>
+            <span class="exp-icon">+</span>
+          </div>
+        </div>
+
+        <div class="exp-item" tabindex="0" aria-expanded="false">
+          <div class="exp-row">
+            <span class="exp-num">03</span>
+            <div class="exp-text">
+              <h3>What activities can I enjoy?</h3>
+              <p class="exp-desc">Guided nature walks, yoga, stargazing, and quiet time by the water.</p>
+              <a href="#faq" class="exp-more">Learn more</a>
+            </div>
+            <div class="exp-img">
+              <img src="../images/exp3.png" alt="Activities at the retreat">
+            </div>
+            <span class="exp-icon">+</span>
+          </div>
+        </div>
+
+        <div class="exp-item" tabindex="0" aria-expanded="false">
+          <div class="exp-row">
+            <span class="exp-num">04</span>
+            <div class="exp-text">
+              <h3>How do I get to the retreat?</h3>
+              <p class="exp-desc">We share clear directions after booking, and can arrange a pickup on request.</p>
+              <a href="#contact" class="exp-more">Learn more</a>
+            </div>
+            <div class="exp-img">
+              <img src="../images/exp4.png" alt="Road to the retreat">
+            </div>
+            <span class="exp-icon">+</span>
+          </div>
+        </div>
+
+        <div class="exp-item" tabindex="0" aria-expanded="false">
+          <div class="exp-row">
+            <span class="exp-num">05</span>
+            <div class="exp-text">
+              <h3>What is included in my stay?</h3>
+              <p class="exp-desc">Daily breakfast, access to all trails and common areas, and fresh linens.</p>
+              <a href="#faq" class="exp-more">Learn more</a>
+            </div>
+            <div class="exp-img">
+              <img src="../images/exp5.png" alt="What is included">
+            </div>
+            <span class="exp-icon">+</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="gallery-section" id="gallery">
+
+      <div class="gallery-panel">
+
+        <div class="gallery-title">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 19C5 10 10 5 20 4c0 10-5 15-14 15z"></path>
+            <path d="M5 19c3-5 6-8 11-11"></path>
+          </svg>
+          <h2>Gallery</h2>
+        </div>
+
+        <div class="gallery-body">
+
+          <div class="gallery-follow">
+            <span>Follow us</span>
+
+            <div class="social-icons">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"></circle>
+                </svg>
+              </a>
+
+              <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M14 8V6.5c0-.7.3-1 1-1h2V2h-3c-3 0-4.5 1.8-4.5 4.5V8H7v3.5h2.5V22H14V11.5h2.8L17 8z"></path>
+                </svg>
+              </a>
+
+              <a href="#" aria-label="Pinterest"><b class="social-letter">P</b></a>
+
+              <a href="#" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                  <rect x="2.5" y="5.5" width="19" height="13" rx="4"></rect>
+                  <path d="M10 9.5v5l4.5-2.5z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="gallery-photos">
+
+            <div class="photo photo-tall">
+              <img src="../images/gallery1.png" alt="Wooden bedroom with forest view">
+            </div>
+
+            <div class="photo-rows">
+
+              <div class="photo-row row-top">
+                <div class="photo">
+                  <img src="../images/gallery2.png" alt="Infinity pool overlooking the valley">
+                </div>
+                <div class="photo">
+                  <img src="../images/gallery3.png" alt="Grass roof cabin by the pool">
+                </div>
+              </div>
+
+              <div class="photo-row row-bottom">
+                <div class="photo">
+                  <img src="../images/gallery4.png" alt="Cozy living room with arched windows">
+                </div>
+                <div class="photo">
+                  <img src="../images/gallery5.png" alt="Interior with a large window">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <p class="gallery-caption">
+            Moments of<br>
+            calm, captured<br>
+            in nature.
+          </p>
+
+        </div>
+
+        <a href="#gallery" class="more-photos-btn">See More Photos</a>
+
+      </div>
+
+    </section>
+
+
+    <section class="reviews-section" id="reviews">
+
+      <div class="reviews-intro">
+
+        <div class="reviews-label">
+          <span class="reviews-icon">♧</span>
+          <span>guest reviews</span>
+        </div>
+
+        <h2>
+          Stories from<br>
+          those who stayed.
+        </h2>
+
+        <span class="reviews-line"></span>
+
+        <div class="reviews-score">
+          <strong>4.9</strong>
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p>300+ reviews</p>
+          </div>
+        </div>
+
+        <div class="reviews-arrows">
+          <button class="arrow-btn" id="reviewsPrev" aria-label="Previous review">←</button>
+          <button class="arrow-btn" id="reviewsNext" aria-label="Next review">→</button>
+        </div>
+
+      </div>
+
+      <div class="reviews-track" id="reviewsTrack">
+
+        <article class="review-card featured">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            We came to slow down and ended up not wanting to leave.
+            Waking up to the forest outside the window was unforgettable.
+          </p>
+          <div class="review-guest">
+            <img src="../images/guest2.png" alt="Guest">
+            <div>
+              <strong>Maya R.</strong>
+              <span>Stayed 3 nights, May 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            Every detail felt thoughtful, from the warm wooden interiors
+            to the quiet mornings. Truly a place to reset.
+          </p>
+          <div class="review-guest">
+            <img src="../images/guest3.png" alt="Guest">
+            <div>
+              <strong>Daniel K.</strong>
+              <span>Stayed 2 nights, April 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            The perfect mix of comfort and nature. We loved the
+            stargazing evenings and the peaceful trails nearby.
+          </p>
+          <div class="review-guest">
+            <img src="../images/guest4.png" alt="Guest">
+            <div>
+              <strong>Sofia L.</strong>
+              <span>Stayed 4 nights, March 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            Friendly hosts, spotless cabin, and a view that made
+            every coffee feel special. We are already planning our return.
+          </p>
+          <div class="review-guest">
+            <img src="../images/guest5.png" alt="Guest">
+            <div>
+              <strong>James T.</strong>
+              <span>Stayed 3 nights, February 2024</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">
+            Peaceful, private and beautifully designed. A little far
+            to reach, but absolutely worth the trip.
+          </p>
+          <div class="review-guest">
+            <img src="../images/guest2.png" alt="Guest">
+            <div>
+              <strong>Ana P.</strong>
+              <span>Stayed 2 nights, January 2024</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="../js/navbar.js"></script>
+  <script src="../js/discover.js"></script>
+  <script src="../js/experiences.js"></script>
+  <script src="../js/reviews.js"></script>
+
+</body>
+</html>
